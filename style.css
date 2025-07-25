@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+  
+}
+
+body {
+  background-color: #ADD8E6;  
+  font-family: 'PokemonDS';
+  color:#36454F;
+}
+
+h1 {
+  font-family: 'PokemonDS';
+  font-size: 2em;
+  color:#36454F;
+}
+
+hr {
+  border: 0;
+  border-top: 5px double #D3D3D3;
+  margin: 3rem 0;
+}
+
+body p {
+  display: inline-block;             
+  text-decoration-line: underline;
+  text-decoration-color: #D3D3D3;
+  text-decoration-thickness: 2px;     
+  text-underline-offset: 0.2em;         
+}
