@@ -33,6 +33,7 @@
         <dd>"Living our dream life is like eating pizza, We Team Helios believe that wealth LORD trust to us is for share to other, We will build peoples for GOD".</dd>
      </dl>
 <hr><hr>
+<!--Tables-->
     <h1>Tables</h1> 
     <h3>Grinding Hours</h3>
 <table border="3" cellpadding="5" cellspacing="0" style="width: 100%; background-color: rgb(0, 223, 252);">
@@ -68,7 +69,7 @@
     </tr>
 </table>   
 <hr>
-
+<!--Button-->
 <h1>Button</h1> 
 
 <button onclick="doSomething()" style="font-size: 20px; background-color: Purple ; color: yellow; border-radius: 10px; padding: 10px;">Reveal</button>
@@ -80,5 +81,57 @@
         document.getElementById("greeting").innerHTML = "Hello, Leon!";
     }
 </script>
+<hr>
+<!--Forms-->
+<h1>Forms</h1>
+
+  <form action="index.php" method="POST" enctype="multipart/form-data">
+    <label for="username">username:</label>
+    <input type="text" id="username" placeholder="Helios" minlength="6" maxlength="20" required><br>
+
+    <label for="password">password:</label>
+    <input type="password" id="password" placeholder="DawnBreak" minlength="6" maxlength="20" name="password" ><br>
+
+    <label for="email">email:</label>
+    <input type="email" id="email" placeholder="helios020202@gmail.com"><br>
+
+    <label for="phone">phone:</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br>
+
+    <label for="bday">birthday:</label>
+    <input type="date" id="bday" name="bday" ><br>
+
+    <label for="quantity">quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="0" max="99" ><br>
+
+    <label for="title">title:</label><br>
+
+    <label for="mr">Mr.</label>
+    <input type="radio" id="mr" name="title" value="Mr.">
+    <label for="ms">Ms.</label>
+    <input type="radio" id="ms" name="title" value="Ms.">
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="PhD." name="title" value="PhD."><br>
+
+    <label for="payment">Payment:</label>
+    <select>
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bank">Bank Transfer</option>
+    </select><br>
+
+    <label for="subcribe">subcribe:</label>
+    <input type="checkbox" id="subcribe" name="subcribe" value="yes"><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt "></textarea><br>
+
+    <label for="file">Upload file:</label>
+    <input type="file" id="file" name="file" accept=".jpg,png,.gif,.pdf,.mp4,.mp3,.jpeg"><br>
+
+    <input type="reset"><br>
+    <input type="submit">
+  </form>
 </body>
 </html>
