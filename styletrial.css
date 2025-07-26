@@ -1,0 +1,80 @@
+
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+}
+
+body {
+  background-color:lightblue;  
+  font-family: 'PokemonDS';
+  color:#36454F;
+}
+
+#p7 {
+  font-family: 'PokemonDS';
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+#bx {
+    border-top: 3px solid red;
+    border-bottom: 3px dotted blue;
+    border-left: 3px green;
+    border-right: 3px yellow;
+}
+
+#b1 {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: red;
+    border-width: 5px;
+}
+
+#b2{
+    border: 3px solid blue;
+    border-width: 10px;
+}
+
+#b3 {
+    border: 3px dashed yellow;
+    border-width: 10px;
+}
+
+#b4 {
+    border: groove violet;
+    border-width: 10px;
+}
+
+#b5 {
+    border: ridge orange;
+    border-width: 10px;
+}
+
+
+#b6 {
+    border: inset navy;
+    border-width: 10px;
+}
+
+#b7 {
+    border: outset pink;
+    border-width: 10px;
+}
+
+#b8 {
+    border: double gold;
+    border-width: 10px;
+}
+
+#b9{
+    border: none;
+    border-width: 10px;
+}
+
+#b10 {
+    border: dotted silver;
+    border-width: 10px;
+}
+
