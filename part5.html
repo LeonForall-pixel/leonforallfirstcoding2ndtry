@@ -9,9 +9,59 @@
 <a href="index.html"> <button style="font size: 200px; background-color:black; color:orange; border:radius 200px;px;"> Back to index, main page </button> </a> <br><br>
     <h1>Part 5: Visual & Selector</h1><hr><hr>
     <!--1. Background images-->
-    <h2>1. Background images</h2>
+    <h2>1. Background images</h2><hr>
     <!--2. Combinators-->
     <h2>2. Combinators</h2>
-    
+    <p>combinators explain the relationship between two selectors. There are four types of combinators:<br>
+| = descendant combinator<br>
+> = child combinator<br>
+~ = general sibling combinator<br>
++ = adjacent sibling combinator<br></p>
+
+<div id="container1">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>    
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+<h3>Descendant, 1,2, and 3 are all descendant</h3><br>
+
+<div id="container2">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>    
+    <p>This is #4</p>
+    <p>This is #5</p>
+<h3> < Children, 1 and 2 are direct children, 3 is like grandchild</h3>
+
+<div id="container3">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>    
+    <p>This is #4</p>
+    <p>This is #5</p>
+<h3> ~ General sibling, 4 and 5 is like cousin</h3><br>
+
+<div id="container4">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+ </div>   
+    <p>This is #4</p>
+    <p>This is #5</p>
+<h3>+ is adjacent sibling, mean number 4 is next to number 3</h3><hr   
+
  </body>
 </html>   

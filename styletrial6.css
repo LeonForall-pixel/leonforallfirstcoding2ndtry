@@ -12,3 +12,29 @@ body {
     color:#ffffff;
     text-shadow: red 2px 2px 4px, yellow -2px -2px 4px  ;
 }
+h3 {
+    font-family: 'PokemonDS';
+    font-size: 1.5em;
+    color:#000000;
+    text-shadow: red 2px 2px 4px, yellow -2px -2px 4px;
+}
+#container{
+  border: 2px solid black;
+}
+#container1{
+  background-color: yellow;
+  border: 2px solid black;
+}
+#container2 > p{
+  background-color: yellow;
+  border: 2px solid black;
+}
+#container3 ~ p{
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+#container4 + p{
+  background-color: yellow;
+  border: 2px solid black;
+}
