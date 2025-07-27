@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+}
+body {
+  background-color:lightblue;  
+  font-family: 'PokemonDS';
+  color:#36454F;
+    border: 3px solid grey;
+    display: flow-root;
+}
+#jamesclear{
+    float: left;
+    margin-right: 20px;
+}
+#erenyeager{
+    float: right;
+    margin-left: 20px;
+}

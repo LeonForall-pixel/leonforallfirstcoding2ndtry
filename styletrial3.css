@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+}
+body {
+  background-color:lightblue;  
+  font-family: 'PokemonDS';
+  color:#36454F;
+}
+div{
+    border: 2px solid black;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+    font-size: 2em;
+}
