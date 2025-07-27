@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+}
+body {
+    background-color: aquamarine;
+    background-image: url('image/dandadan2-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'PokemonDS';
+    color:#ffffff;
+    text-shadow: red 2px 2px 4px, yellow -2px -2px 4px  ;
+}

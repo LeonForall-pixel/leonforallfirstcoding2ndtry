@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ADD8E6;  
+  background-image: url('image/pokemon-background.jpg');  
   font-family: 'PokemonDS';
   color:#36454F;
 }
