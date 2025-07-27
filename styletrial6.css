@@ -3,7 +3,6 @@
   src: url(font/pokemon-ds-font.ttf)
 }
 body {
-    background-color: aquamarine;
     background-image: url('image/dandadan2-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
