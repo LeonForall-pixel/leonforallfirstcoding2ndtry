@@ -37,3 +37,24 @@ pre {
   color: #36454F;
   white-space: pre-wrap;    
 }
+
+.pagination{
+  text-align: center;
+  font-size: 2em;
+}
+
+.pagination a.active{
+  background-color: gold;
+  font-weight: bold;
+}
+
+.pagination a{
+  color:gray;
+  text-decoration: none;
+  padding:auto;
+  display:inline-block
+}
+
+.pagination a:hover:not(.active){
+  color:blue;
+}
