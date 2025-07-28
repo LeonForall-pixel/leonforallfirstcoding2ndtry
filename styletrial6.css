@@ -38,3 +38,93 @@ h3 {
   background-color: yellow;
   border: 2px solid black;
 }
+
+button:hover{
+  cursor: pointer;
+  font-size: 1.1em;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+button:active {
+  background-color: blue;
+  color: red;
+  font-size: 1.1em;
+}
+
+a:link {
+  color: rgb(238, 0, 255);
+  text-decoration: none;
+}
+a:hover {
+  color:purple
+  font-size: 1.2em;
+}
+a:active {
+  color: red;
+  font-size: 1.2em;
+}
+a:visited {
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+}
+
+li:hover{
+  background-color: red;
+}
+
+li:not(:hover){
+  background-color: rgb(0, 255, 115);
+}
+
+li:nth-child(3n){
+  background-color: grey
+}
+
+#greeting p{
+  background-color: white;
+  padding: auto;
+  display: none;
+}
+
+#greeting:hover p{
+  display: block;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+h1::first-letter{
+  font-size: 2em;
+  font-style: Italic;
+}
+
+p::first-line{
+  background-color: turquoise;
+}
+
+p::selection{
+  color: greenyellow;
+  background-color: black;
+}
+
+#fruit li::before{
+
+}
+
+#apple::after{
+  content:"🍎";
+}
+
+#banana::after{
+  content:"🍌";
+}
+
+#grape::after{
+  content:"🍇";
+}
+
+#fruit li::marker{
+  content:"✅";
+  color: green;
+}

@@ -30,3 +30,14 @@ body p {
   text-decoration-thickness: 2px;     
   text-underline-offset: 0.2em;         
 }
+
+button:hover{
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:active {
+  background-color: blue;
+  color: red;
+  font-size: 1.1em;
+}
