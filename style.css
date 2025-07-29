@@ -6,9 +6,12 @@
 }
 
 body {
-  background-image: url('image/pokemon-background.jpg');  
+  background-image: url('image/isekai3-background.jpg');  
   font-family: 'PokemonDS';
   color:#36454F;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
 }
 
 h1 {

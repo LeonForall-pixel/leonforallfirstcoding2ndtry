@@ -1,0 +1,171 @@
+
+@font-face {
+  font-family: 'PokemonDS';
+  src: url(font/pokemon-ds-font.ttf)
+}
+body {
+  background-color:lightblue;  
+  font-family: 'PokemonDS';
+  color:#36454F;
+}
+
+.pagination{
+  text-align: center;
+  font-size: 2em;
+}
+
+.pagination a.active{
+  background-color: gold;
+  font-weight: bold;
+}
+
+.pagination a{
+  color:gray;
+  text-decoration: none;
+  padding:auto;
+  display:inline-block
+}
+
+.pagination a:hover:not(.active){
+  color:blue;
+}
+
+.dropdown{
+  display: inline-block;
+}
+
+.dropdown button{
+  background-color: red;
+  color: blue;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown a{
+  display: block;
+  color: aqua;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content{
+  display:none;
+  position: absolute;
+  background-color: green;
+  min-width: 100px;
+  box-shadow:2px 2px 5px yellow;
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+.dropdown:hover button{
+background-color: blueviolet;
+}
+
+.dropdown a:hover{
+  background-color: orange;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: blue;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color:white;
+  text-decoration: none;
+  padding: 15px;
+  display:block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: red;
+  size: 2em;
+}
+
+.navbar li{
+  float: left;
+}
+
+body {
+  margin:auto;
+}
+header {
+  background-color: navy;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+aside{
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+section{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+*{
+  box-sizing: border-box;
+}
+footer{
+  display:block;
+  clear: both;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 25px;
+}
+@media screen and (max-width:600px){
+  aside, section, article{
+    width:100%
+  }
+}
+.gallery {
+  display: inline-block;
+  border: 1px solid white;
+  margin: 5px;
+  width: 130px;
+}
+.gallery .description{
+  padding: 10px;
+  text-align: center;
+}
+.gallery:hover{
+  border: 1px solid red;
+}
+.gallery img{
+  width: 100%;
+  height:auto;
+}
+.icons{
+  text-align: center;
+}
+.fa-solid.fa-house.fa-spin.fa-5x{
+  color: green;
+}
+.fa-solid.fa-house.fa-spin.fa-5x:hover{
+  color: white;
+}
+.fa-soli.fa-camera{
+  color: red;
+}
+.fa-soli.fa-camera:hover{
+  color: yellow;
+}
+.icons a{
+  text-decoration: none;
+  margin: auto;
+}
